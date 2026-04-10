@@ -28,3 +28,6 @@ htmlcov/
 
 # Local notes/docs
 claude.md
+
+# Large/raw datasets
+data/justfair_raw.csv
