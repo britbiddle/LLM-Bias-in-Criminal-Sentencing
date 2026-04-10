@@ -1,0 +1,558 @@
+﻿Variable,Source,Abbreviated Description
+CIRCDIST,USSCD,Districts in the order in which they appear in the Commission’s Sourcebook of Federal Sentencing Statistics.
+CASLGKY,USSCD,"A concatenation of district, office, docket number, case type, and reopen sequence number."
+SAFETY,USSCD,Indicator of whether or not the “Safety Valve” provision (§5C1.2 or 2D1.1) was applied. Note that this provision is only applicable to drug cases.
+ZONE,USSCD,Sentence table group which determines eligibility for probation and alternative prison sentences.
+AMTFINEC,USSCD,The total dollar amount of both fine (FINE) and cost of supervision (COSTSUP) imposed.
+AMTREST,USSCD,Dollar amount of restitution. Similar to the variable TOTREST.
+AMTTOTAL,USSCD,"Sum of the imposed dollar amounts of fine (FINE), cost of supervision (COSTSUP), and restitution (TOTREST)."
+COSTSUP,USSCD,"Dollar amount of cost of supervision, only if ordered separately from fine."
+FINE,USSCD,The dollar amount of fine ordered (including cost of supervision when fine and cost of supervision are not reported separately).
+TOTREST,USSCD,The dollar amount of restitution ordered.
+SENTTOT,USSCD,"The total prison sentence (excluding months of alternative confinement), in months, without zeros (probation). "
+SENSPLT0,USSCD,"The total prison sentence, in months, plus alternatives, without zeros (probation)."
+USSCIDN,USSCD,Unique sequential identification number given to cases upon receipt at USSC.
+ACCAP,USSCD,Indicator of whether Armed Career Criminal status was applied under§4B1.4. This variable is 1 when ACCOFFLV>0. This variable applies only to cases whose AMENDYR is after 1989.
+ACCGDLN,USSCD,Explicit statement by the Court on the Statement of Reasons (SOR) regarding acceptance of the guideline factors applied in the PSR.
+ACCTRESP,USSCD,The number of levels to be subtracted from combined adjusted offense level due to defendant's Acceptance of Responsibility under §3E1.1.
+CAROFFAP,USSCD,Indicator to whether Career Offender status was applied under §4B1.1.
+AGE,USSCD,"Identifies the age of the defendant at the time of sentencing. It is generated based on the date of birth provided either in the PSR or at case submission to USSC, and the sentencing date from the J&C."
+ALTDUM,USSCD,"Dummy indicator of alternative sentence (home detention, community confinement, or intermittent confinement), as defined in §5C1.1."
+ALTMO,USSCD,"Total months of alternative incarceration (includes home detention, community confinement, and intermittent confinement)."
+AMENDYR,USSCD,The guideline manual used to calculate the guideline calculations.
+CHAP2,USSCD,Base Offense Level plus Chapter Two SOCs (Proxy for offense seriousness).
+CITIZEN,USSCD,Identifies the nature of defendant's citizenship with respect to the United States.
+CITWHERE,USSCD,Identifies the defendant's country of citizenship.
+COMBDRG2,USSCD,Aggregation of DRUGTYP1 for USSC Sourcebook tables.
+COMDUM,USSCD,Indicator as to whether the defendant received community confinement.
+COSTSDUM,USSCD,Indicator of whether the cost of supervision is given (YES/NO variable).
+CRIMHIST,USSCD,"Indication as to whether the defendant has any criminal history or law enforcement contacts, including behavior that is not eligible for the application of criminal history points (ex. arrests)."
+CRIMPTS,USSCD,"Subtotal of criminal history points applied, based on the contributions of one, two, and three point offenses (i.e., POINT1+POINT2+POINT3)."
+DAYSDUM,USSCD,Indicator variable for whether the offender received a sentence of any days imposed in prison. Generated from TOTDAYS.
+DISPOSIT,USSCD,Disposition of the defendant's case.
+DRUGTYP1,USSCD,Drug types involved in a case.
+DSIND,USSCD,Document status indicator for Indictment or Information.
+DSJANDC,USSCD,Document status indicator for Judgment and Conviction Order.
+DSPLEA,USSCD,Document status indicator for Plea Agreement.
+DSPSR,USSCD,Document status indicator for Pre-sentence Report.
+DSSOR,USSCD,Document status indicator for the Statement of Reasons.
+ECONDUM,USSCD,Indicator of whether a fine/cost of supervision or restitution amount was given.
+EDUCATN,USSCD,Indicates the highest level of education completed by the defendant.
+ENCRYPT1,USSCD,Indicates if case contained any occurrences of use of encryption or scrambling technology to obstruct justice.
+FINECDUM,USSCD,Indicates whether the fine/cost of supervision amount was given (YES/NO variable).
+FINEWAIV,USSCD,Indicates if the fine (or portion of the fine) was waived because of the defendant's inability to pay or the burden of the fine would have been on the defendant's dependents.
+HISPORIG,USSCD,Offender's ethnic origin.
+HOMDUM,USSCD,Indicates whether the defendant received home detention.
+HRCOMSRV,USSCD,Total number of community service hours ordered.
+INTDUM,USSCD,Indicates whether a defendant received intermittent confinement.
+IS924C,USSCD,Indicates if there is an 18§924(c) charge present (YES/NO variable).
+MOCOMCON,USSCD,"Total term of community confinement ordered, in months (excluding special requests to BOP)."
+MOHOMDET,USSCD,"Total term of home detention ordered, in months (excluding special requests to BOP)."
+MOINTCON,USSCD,"Total term of intermittent confinement ordered, in months (excluding special requests to BOP)."
+MONCIRC,USSCD,Indicates the judicial circuit in which the defendant was sentenced.
+MONRACE,USSCD,Offender's race (self-reported to the probation officer).
+MONSEX,USSCD,Indicates the offender's gender.
+NEWCIT,USSCD,Citizenship of the defendant.
+NEWCNVTN,USSCD,Indicates whether the case was settled by plea agreement or trial.
+NEWEDUC,USSCD,Highest level of education for offender.
+NEWRACE,USSCD,Race of defendant (Recode of MONRACE and HISPORIG for the annual report).
+NOCOMP,USSCD,The number of guideline computations.
+NOCOUNTS,USSCD,The number of counts of conviction.
+NOUSTAT,USSCD,The number of unique statutes in a case.
+NUMDEPEN,USSCD,Number of dependents whom the offender supports (excluding self).
+POINT1,USSCD,Number of one-point incidents (sentences < 60 days) included in the criminal history section of the PSR.
+POINT2,USSCD,Number of two-point incidents (> 60 days and < 13 months) included in the criminal history section of the PSR.
+POINT3,USSCD,Number of three-point incidents (> 13 months) included in the criminal history section of the PSR.
+PRESENT,USSCD,Offender’s pre-sentence detention status.
+PRISDUM,USSCD,Indicates if the defendant received a prison sentence (YES/NO variable).
+PROBATN,USSCD,"Total probation ordered, in months."
+PROBDUM,USSCD,Indicates whether the defendant received probation (YES/NO variable).
+RANGEPT,USSCD,The quarter of the fiscal year in which the case was sentenced.
+RESTDUM,USSCD,Indicates whether a restitution amount was given (YES/NO variable).
+SAFE,USSCD,Indicator of Safety Valve application under both §2D1.1 and §5C1.2.
+SENTIMP,USSCD,"Indicates what type of sentence was given (prison, probation, probation plus alternatives, or prison/split sentence)."
+SENTPTS,USSCD,§4A1.1(d) Number of criminal history points applied from the commission of the instant offense while under the criminal justice system.
+SOURCES,USSCD,Indicates the extent to which information coded in detailed guideline application is based upon known court findings.
+SUPRDUM,USSCD,Indicates whether the defendant received supervised release.
+SUPREL,USSCD,Number of months of supervised release ordered.
+TOTCHPTS,USSCD,The total number of criminal history points applied.
+TOTDAYS,USSCD,The number of days of imprisonment ordered.
+TOTUNIT,USSCD,The total number of units used to calculate offense level adjustment to be applied as a result of a multiple count or grouping adjustment.
+TYPEMONY,USSCD,Indicates whether a fine/cost of supervision or restitution was ordered.
+TYPEOTHS,USSCD,Other types of sentences ordered.
+UNIT1,USSCD,The unit of measure for the first through nth drug types (DRUGTYP1- DRUGTYPX) and amount (DRGAM1- DRGAMX) for which the defendant was held responsible.
+VIOL1PTS,USSCD,Number of criminal history points applied for each prior sentence resulting from a conviction of a crime of violence that did not already receive points under §§4A1.
+WEAPON,USSCD,Indicates if there is an SOC weapon enhancement or an 18§924(c) conviction.
+WEAPSOC,USSCD,Indicates if there is an SOC enhancement for a weapon present.
+XCRHISSR,USSCD,"Defendant's final criminal history category (I-VI), as determined by the court."
+XFOLSOR,USSCD,"The final offense level, as determined by the court."
+YEARS,USSCD,Categories of age ranges (Recode of AGE for USSC Sourcebook).
+DRUGMIN,USSCD,Represents mandatory minimum sentence (in months) associated with drug statutes.
+GLMIN,USSCD,Trumped Guideline Minimum.
+GLMAX,USSCD,Trumped Guideline Maximum.
+GUNMIN1,USSCD,Represents mandatory minimum consecutive sentence (in months) associated with all 18§924(c) counts associated with the case.
+GUNMIN2,USSCD,Represents mandatory minimum sentence (in months) associated with 18§924(e) or 18:922(g).
+STATMAX,USSCD,"Total statutory maximum prison term, in months, for all counts."
+STATMIN,USSCD,"Total statutory minimum prison term, in months, for all counts of conviction."
+TOTPRISN,USSCD,The number of months of imprisonment ordered.
+XMAXSOR,USSCD,"Maximum guideline range for imprisonment, as determined by the court."
+XMINSOR,USSCD,"Minimum guideline range for imprisonment, as determined by the court."
+SMIN1,USSCD,Statutory minimum for each individual count of conviction.
+SMAX1,USSCD,Statutory maximum for each individual count of conviction.
+POOFFICE,USSCD,Indicates the code for the probation office where the PSR was prepared.
+TIMSERVD,USSCD,This is the amount of time already served (in days) and credited to the offender by the judge at the time of sentencing.
+TIMSERVM,USSCD,This is the amount of time already served (in months) and credited to the offender by the judge at the time of sentencing.
+SPECASSM,USSCD,The dollar value of the special assessment fee assigned by the court.
+ABUS1,USSCD,This field indicates the number of levels added due to the defendant's abuse of a position of trust or use of a special skill under the Abuse of Trust Chapter Three Adjustment (§3B1.3).
+ABUSHI,USSCD,This field indicates the number of levels added due to the defendant's abuse of a position of trust or use of a special skill under the Abuse of Trust Chapter Three Adjustment (§3B1.3).
+ADJOFL1,USSCD,This field is the adjusted offense level.
+ADJOFLHI,USSCD,This field is the adjusted offense level.
+ADJ_B1,USSCD,These variables are the Specific Offense Characteristics (SOCs).
+ADJ_BHI,USSCD,These variables are the Specific Offense Characteristics (SOCs).
+ADJ_C1,USSCD,These variables are the Specific Offense Characteristics (SOCs).
+ADJ_CHI,USSCD,These variables are the Specific Offense Characteristics (SOCs).
+ADJ_D1,USSCD,These variables are the Specific Offense Characteristics (SOCs).
+ADJ_DHI,USSCD,These variables are the Specific Offense Characteristics (SOCs).
+ADJ_E1,USSCD,These variables are the Specific Offense Characteristics (SOCs).
+ADJ_EHI,USSCD,These variables are the Specific Offense Characteristics (SOCs).
+ADJ_F1,USSCD,These variables are the Specific Offense Characteristics (SOCs).
+ADJ_FHI,USSCD,These variables are the Specific Offense Characteristics (SOCs).
+ADJ_G1,USSCD,These variables are the Specific Offense Characteristics (SOCs).
+ADJ_GHI,USSCD,These variables are the Specific Offense Characteristics (SOCs).
+AGGROL1,USSCD,This field contains the number of levels added due to the defendant's aggravating role in the offense pursuant to Aggravated Role Adjustment (§3B1.1).Use the variable NOCOMP to determine how many guideline computations are present in each case. Not all guideline variables available prior to FY2012.FORMAT: AGGROLE.
+AGGROLHI,USSCD,This field contains the number of levels added due to the defendant's aggravating role in the offense pursuant to Aggravated Role Adjustment (§3B1.1).Use the variable NOCOMP to determine how many guideline computations are present in each case. Not all guideline variables available prior to FY2012.FORMAT: AGGROLE.
+BASE1,USSCD,"Base Offense Level (BOL) is the starting point for computing a guideline computation. Note that this field includes any values recorded in the corresponding base adjust fields (see BASADJ1-BASADJX, etc.). Thevalues of this variable may change from year to year, so AMENDYR should be referenced for all data runs using guideline computation variables. Use the variable NOCOMP to determine how many guideline computations are present in each case. BOL information is not useful unless used in conjunction with the specific corresponding guideline. Not all guideline variables available prior to FY2012.NO FORMAT."
+BASEHI,USSCD,"Base Offense Level (BOL) is the starting point for computing a guideline computation. Note that this field includes any values recorded in the corresponding base adjust fields (see BASADJ1-BASADJX, etc.). Thevalues of this variable may change from year to year, so AMENDYR should be referenced for all data runs using guideline computation variables. Use the variable NOCOMP to determine how many guideline computations are present in each case. BOL information is not useful unless used in conjunction with the specific corresponding guideline. Not all guideline variables available prior to FY2012.NO FORMAT."
+FLIGHT1,USSCD,This field is the number of levels added because defendant recklessly endangered another person during flight from law enforcement (§3C1.2).
+FLIGHTHI,USSCD,This field is the number of levels added because defendant recklessly endangered another person during flight from law enforcement (§3C1.2).
+MITROL1,USSCD,Mitigating Role Adjustment (§3B1.2). This field is the number of levels subtracted due to the defendant's mitigating role in the offense.   The end points for this variable are denoted with X because the total number of guideline computations recorded varies from case to case and year to year.
+MITROLHI,USSCD,Mitigating Role Adjustment (§3B1.2). This field is the number of levels subtracted due to the defendant's mitigating role in the offense.   The end points for this variable are denoted with X because the total number of guideline computations recorded varies from case to case and year to year.
+OBSTRC1,USSCD,Obstruction of Justice Adjustment (§3C1.1).  This field is the number of levels added because defendant willfully obstructed or impeded justice.
+OBSTRCHI,USSCD,Obstruction of Justice Adjustment (§3C1.1).  This field is the number of levels added because defendant willfully obstructed or impeded justice.
+OFFVCT1,USSCD,The Official Victim Adjustment (§3A1.2).  This field is the number of levels added due to involvement of a victim who is a law enforcement or corrections official.
+OFFVCTHI,USSCD,The Official Victim Adjustment (§3A1.2).  This field is the number of levels added due to involvement of a victim who is a law enforcement or corrections official. 
+RSTRVC1,USSCD,Restraint of Victim Adjustment (§3A1.3).  This field is the number of levels added because victim was physically restrained during the offense.
+RSTRVCHI,USSCD,Restraint of Victim Adjustment (§3A1.3).  This field is the number of levels added because victim was physically restrained during the offense.
+TEROR1,USSCD,"The Chapter Three Adjustment, International Terrorism (§3A1.4). Number of levels added due to international terrorism involvement in the offense."
+TERORHI,USSCD,"The Chapter Three Adjustment, International Terrorism (§3A1.4). Number of levels added due to international terrorism involvement in the offense."
+USKID1,USSCD,Use of Minor in Commission of a Crime (§3B1.4) which corresponds to GDLINE1-GDLINEX.  This field indicates the number of levels added for the use of a minor.
+USKIDHI,USSCD,Use of Minor in Commission of a Crime (§3B1.4) which corresponds to GDLINE1-GDLINEX.  This field indicates the number of levels added for the use of a minor.
+VULVCT1,USSCD,Hate Crime/Vulnerable Victim Adjustment (§3A1.1).  Indicates levels added for hate crime/vulnerable victim.
+VULVCTHI,USSCD,Hate Crime/Vulnerable Victim Adjustment (§3A1.1).  Indicates levels added for hate crime/vulnerable victim.
+GDLINE1,USSCD,The Chapter Two Guideline applied in a case. 
+GDSTAT1,USSCD,The Chapter Two Guideline applied in a case. 
+GDLINEHI,USSCD,The Chapter Two Guideline applied in a case. 
+GDSTATHI,USSCD,The Chapter Two Guideline applied in a case. 
+STA1_1,USSCD,"Title, Section, and Subsection number, respectively of the first statutes for each count of conviction."
+STA2_1,USSCD,"Title, Section, and Subsection number, respectively of the second statutes for each count of conviction."
+NWSTAT1,USSCD,"Title, Section, and Subsection number of the UNIQUE statutes for each case generated from all of the statute fields."
+NWSTAT2,USSCD,"Title, Section, and Subsection number of the UNIQUE statutes for each case generated from all of the statute fields."
+CRPTS,USSCD,Dummy variable that indicates whether any criminal history points were applied.
+SENTTOT0,USSCD,"The total prison sentence (excluding months of alternative confinement), in months, with zeros (probation). Missing cases are set to ""·"".  This field includes sentences of time imposed, time served, and §5G1.3 credit."
+DEFCONSL,USSCD,Indicates the type of defense counsel used in the instant offense.
+OFFTYPE2,USSCD,"Primary offense type for the case generated from the count of conviction with the highest statutory maximum (in case of a tie, the count with the highest statutory minimum is used)."
+SENTDATE,USSCD,The date on which the defendant was sentenced.  Field not on datafiles after FY2004.
+SENTMON,USSCD,Sentencing month. Field not on datafiles prior to FY2005.
+SENTYR,USSCD,Sentencing year. Field not on datafiles prior to FY2005.
+BOOKER2,USSCD,This variable is a collapsed version of BOOKERCD.
+BOOKER3,USSCD,This variable is a collapsed version of BOOKERCD.
+BOOKERCD,USSCD,Assigns cases to one of the 12 post-Booker reporting categories based on relationship between the sentence and guideline range and the reason(s) given for being outside of the range.
+BOOKPOST,USSCD,This field indicates which time period a case falls within in the FY2005 datafile.
+OFFTYPESB,USSCD,Primary offense type variable used in the FY2010 and later Sourcebook tables (this field replaces OFFTYPE2 although OFFTYPE2 is still available on the datafile).
+NWSTAT3,USSCD,"Title, Section, and Subsection number of the UNIQUE statutes for each case generated from all of the statute fields."
+NWSTAT4,USSCD,"Title, Section, and Subsection number of the UNIQUE statutes for each case generated from all of the statute fields."
+NWSTAT5,USSCD,"Title, Section, and Subsection number of the UNIQUE statutes for each case generated from all of the statute fields."
+SENTTOTFLAG,JUSTFAIR,"Flag that marks records where SENTTOT has been recorded from missing to 0, consistent with the value of SENTTOT0. "
+roundSENTTOT,JUSTFAIR,"Total sentence from USSC rounded to the nearest integer, created in preprocess.R."
+floorSENTTOT,JUSTFAIR,"Greatest integer less than or equal to total sentence from USSCD, created in preprocess.R."
+USSCcode1,JUSTFAIR,"Renaming of NWSTAT 1 - 5 in USSCD, created in preprocess.R."
+USSCcode2,JUSTFAIR,"Renaming of NWSTAT 1 - 5 in USSCD, created in preprocess.R."
+USSCcode3,JUSTFAIR,"Renaming of NWSTAT 1 - 5 in USSCD, created in preprocess.R."
+USSCcode4,JUSTFAIR,"Renaming of NWSTAT 1 - 5 in USSCD, created in preprocess.R."
+USSCcode5,JUSTFAIR,"Renaming of NWSTAT 1 - 5 in USSCD, created in preprocess.R."
+USSCrecord,JUSTFAIR,Indexing variable for USSC cases introduced in this study.
+FISCALYR,FJCID,The fiscal year of the data fileobtained from the AOUSC
+CIRCUIT,FJCID,The code of the federal judicial circuit where the casewas located
+OFFICE,FJCID,The code of the district officewhere the case was located
+DOCKET,FJCID,Docket number assigned bythe district to the case
+DEFNO,FJCID,A unique number assigned to each defendant in a case which cannot be modified bythe court
+CTDEF,FJCID,A unique number assigned to each defendant in a case which can be modified by thecourt
+NAME,FJCID,"The defendant’s name as reported on the indictment, information, or othercharging documents"
+REOPSEQ,FJCID,A sequential number indicating whether a case is an original proceeding or areopen
+TYPEREG,FJCID,Case type associated withthe current defendant record
+TYPETRN,FJCID,Case type associated with the originating case if thecurrent case was a transfer
+TYPEMAG,FJCID,Case type associated with a magistrate case if the current case was merged from amagistrate case
+DEFLGKY,FJCID,"A concatenation of district, office, docket number, case type, defendant number, andreopen sequence number"
+MAGDOCK,FJCID,The docket number originally given to a case assigned to a magistrate judge and subsequently merged into acriminal case
+MAGDEF,FJCID,A unique number assigned to each defendant in amagistrate case
+STATUSCD,FJCID,The status of the defendantas assigned by the AOUSC
+FUGSTAT,FJCID,A code indicating the fugitivestatus of a defendant
+FGSTRTDATE,FJCID,The date upon which adefendant became a fugitive
+FGENDDATE,FJCID,The date upon which a fugitive defendant was takeninto custody
+FILEDATE,FJCID,The date when a case was first docketed in the districtcourt
+PROCDATE,FJCID,"The date upon which proceedings in a case commenced on charges pending in the district court where the defendant appeared, or the date of the defendant’s felony-waiver ofindictment"
+PROCCD,FJCID,A code used to identify thenature of the proceeding
+APPDATE,FJCID,The date when a defendant first appeared before a judicial officer in the district court where a charge waspending
+APPCD,FJCID,A code indicating the event by which a defendant appeared before a judicial officer in the district courtwhere a charge was pending
+FJUDGE,FJCID,The statistical code associated with the judge assigned to the case at the time of filing or with thepresiding judge
+FCOUNSEL,FJCID,A code indicating the type of legal counsel assigned to adefendant
+FTITLE1,FJCID,The title and section of theU.S. Code applicable to the offense committed whichcarried the highest severity
+FOFFLVL1,FJCID,A code indicating the level of offense associated withFTITLE1
+FOFFCD1,FJCID,The four digit AO offensecode associated with FTITLE1
+D2FOFFCD1,FJCID,The four digit D2 offensecode associated with FTITLE1
+FSEV1,FJCID,A code indicating the severityassociated with FTITLE1
+FTITLE2,FJCID,The title and section of theU.S. Code applicable to the offense committed which carried the second highestseverity
+FOFFLVL2,FJCID,A code indicating the level of offense associated withFTITLE2
+FOFFCD2,FJCID,The four digit AO offensecode associated with FTITLE2
+D2FOFFCD2,FJCID,The four digit D2 offensecode associated with FTITLE2
+FSEV2,FJCID,A code indicating the severityassociated with FTITLE2
+FTITLE3,FJCID,The title and section of theU.S. Code applicable to the offense committed which carried the third highestseverity
+FOFFLVL3,FJCID,A code indicating the level of offense associated withFTITLE3
+FOFFCD3,FJCID,The four digit AO offensecode associated with FTITLE3
+D2FOFFCD3,FJCID,The four digit D2 offensecode associated with FTITLE3
+FSEV3,FJCID,A code indicating the severityassociated with FTITLE3
+FTITLE4,FJCID,The title and section of theU.S. Code applicable to the offense committed which carried the fourth highestseverity
+FOFFLVL4,FJCID,A code indicating the level of offense associated withFTITLE4
+FOFFCD4,FJCID,The four digit AO offensecode associated with FTITLE4
+D2FOFFCD4,FJCID,The four digit D2 offensecode associated with FTITLE4
+FSEV4,FJCID,A code indicating the severityassociated with FTITLE4
+FTITLE5,FJCID,The title and section of theU.S. Code applicable to the offense committed which carried the fifth highestseverity
+FOFFLVL5,FJCID,A code indicating the level of offense associated withFTITLE5
+FOFFCD5,FJCID,The four digit AO offensecode associated with FTITLE5
+D2FOFFCD5,FJCID,The four digit D2 offensecode associated with FTITLE5
+FSEV5,FJCID,A code indicating the severityassociated with FTITLE5
+COUNTY,FJCID,The FIPS code used to indicate the county or parish where an offense wascommitted
+TRANDIST,FJCID,The code of the judicial district in which an intra-district transfer took place
+TRANOFF,FJCID,The code of the district office from which an intra-districttransfer took place
+TRANDOCK,FJCID,The docket number originally assigned by the district in which an intra-districttransfer took place
+TRANDEF,FJCID,The unique number originally assigned to a defendant by the district in which an intra-district transfer took place
+UPDATE,FJCID,The date of the last actiontaken on the record
+DISPDATE,FJCID,The date upon which judicial proceedings before the courtconcluded
+TERMDATE,FJCID,The date upon which thecase was closed
+INT1,FJCID,The number of days from the earlier of filing date or first appearance date toproceeding date
+INT2,FJCID,The number of days from proceeding date todisposition date
+INT3,FJCID,The number of days from disposition date tosentencing date
+TERMOFF,FJCID,The code of the district office where the case wasterminated
+TJUDGE,FJCID,The statistical code associated with the judgewho terminated the case
+TCOUNSEL,FJCID,A code indicating the type of legal counsel assigned to a defendant at the time thecase was closed
+TTITLE1,FJCID,The title and section of theU.S. Code applicable to the offense that carried the most severe disposition and penalty under which thedefendant was disposed
+TOFFLVL1,FJCID,A code indicating the level of offense associated withTTITLE1
+TOFFCD1,FJCID,The four digit AO offensecode associated with TTITLE1
+D2TOFFCD1,FJCID,The four digit D2 offensecode associated with TTITLE1
+TSEV1,FJCID,A code indicating the severityassociated with TTITLE1
+DISP1,FJCID,The code indicating the nature or type of dispositionassociated with TTITLE1
+PRISTIM1,FJCID,The number of months a defendant was sentenced toprison under TTITLE1
+PRISCD1,FJCID,A code indicating whether the prison sentence associated with TTITLE1 was concurrent or consecutive in relation to the other counts in the indictment or information or multiplecounts of the same charge
+PROBMON1,FJCID,The number of months of probation imposed upon adefendant under TTITLE1
+PROBCD1,FJCID,A code indicating whether the probation sentence associated with TTITLE1 was concurrent or consecutive in relation to the other counts in the indictment or information or multiplecounts of the same charge
+SUPVREL1,FJCID,A period of supervisedrelease imposed upon a defendant under TTITLE1
+FINEAMT1,FJCID,The fine imposed upon the defendant at sentencingunder TTITLE1
+TTITLE2,FJCID,The title and section of theU.S. Code applicable to the offense under which the defendant was disposed that carried the second most severe disposition andpenalty
+TOFFLVL2,FJCID,A code indicating the level of offense associated withTTITLE2
+TOFFCD2,FJCID,The four digit AO offensecode associated with TTITLE2
+D2TOFFCD2,FJCID,The four digit D2 offensecode associated with TTITLE2
+TSEV2,FJCID,A code indicating the severityassociated with TTITLE2
+DISP2,FJCID,The code indicating the nature or type of dispositionassociated with TTITLE2
+PRISTIM2,FJCID,The number of months a defendant was sentenced toprison under TTITLE2
+PRISCD2,FJCID,A code indicating whether the prison sentence associated with TTITLE2 was concurrent or consecutive in relation to the other counts in the indictment or information or multiplecounts of the same charge
+PROBMON2,FJCID,The number of months of probation imposed upon adefendant under TTITLE2
+PROBCD2,FJCID,A code indicating whether the probation sentence associated with TTITLE2 was concurrent or consecutive in relation to the other counts in the indictment or information or multiplecounts of the same charge
+SUPVREL2,FJCID,A period of supervised release imposed upon adefendant under TTITLE2
+FINEAMT2,FJCID,The fine imposed upon the defendant at sentencingunder TTITLE2
+TTITLE3,FJCID,The title and section of theU.S. Code applicable to the offense under which the defendant was disposed that carried the third most severe disposition andpenalty
+TOFFLVL3,FJCID,A code indicating the level of offense associated withTTITLE3
+TOFFCD3,FJCID,The four digit AO offensecode associated with TTITLE3
+D2TOFFCD3,FJCID,The four digit D2 offensecode associated with TTITLE3
+TSEV3,FJCID,A code indicating the severityassociated with TTITLE3
+DISP3,FJCID,The code indicating thenature or type of disposition associated with TTITLE3
+PRISTIM3,FJCID,The number of months a defendant was sentenced toprison under TTITLE3
+PRISCD3,FJCID,A code indicating whether the prison sentence associated with TTITLE3 was concurrent or consecutive in relation to the other counts in the indictment or information or multiplecounts of the same charge
+PROBMON3,FJCID,The number of months of probation imposed upon adefendant under TTITLE3
+PROBCD3,FJCID,A code indicating whether the probation sentence associated with TTITLE3 was concurrent or consecutive in relation to the other counts in the indictment or information or multiplecounts of the same charge
+SUPVREL3,FJCID,A period of supervised release imposed upon adefendant under TTITLE3
+FINEAMT3,FJCID,The fine imposed upon the defendant at sentencingunder TTITLE3
+TTITLE4,FJCID,The title and section of theU.S. Code applicable to the offense under which the defendant was disposed that carried the fourth most severe disposition andpenalty
+TOFFLVL4,FJCID,A code indicating the level of offense associated withTTITLE4
+TOFFCD4,FJCID,The four digit AO offensecode associated with TTITLE4
+D2TOFFCD4,FJCID,The four digit D2 offensecode associated with TTITLE4
+TSEV4,FJCID,A code indicating the severityassociated with TTITLE4
+DISP4,FJCID,The code indicating the nature or type of dispositionassociated with TTITLE4
+PRISTIM4,FJCID,The number of months a defendant was sentenced toprison under TTITLE4
+PRISCD4,FJCID,A code indicating whether the prison sentence associated with TTITLE4 was concurrent or consecutive in relation to the other counts in the indictment or information or multiplecounts of the same charge
+PROBMON4,FJCID,The number of months of probation imposed upon adefendant under TTITLE4
+PROBCD4,FJCID,A code indicating whether the probation sentence associated with TTITLE4 was concurrent or consecutive in relation to the other counts in the indictment or information or multiplecounts of the same charge
+SUPVREL4,FJCID,A period of supervised release imposed upon adefendant under TTITLE4
+FINEAMT4,FJCID,The fine imposed upon the defendant at sentencingunder TTITLE4
+TTITLE5,FJCID,The title and section of theU.S. Code applicable to the offense under which the defendant was disposed that carried the fifth most severedisposition and penalty
+TOFFLVL5,FJCID,A code indicating the level of offense associated withTTITLE5
+TOFFCD5,FJCID,The four digit AO offensecode associated with TTITLE5
+D2TOFFCD5,FJCID,The four digit D2 offensecode associated with TTITLE5
+TSEV5,FJCID,A code indicating the severityassociated with TTITLE5
+DISP5,FJCID,The code indicating the nature or type of dispositionassociated with TTITLE5
+PRISTIM5,FJCID,The number of months a defendant was sentenced toprison under TTITLE5
+PRISCD5,FJCID,A code indicating whether the prison sentence associated with TTITLE5 was concurrent or consecutive in relation to the other counts in the indictment or information or multiplecounts of the same charge
+PROBMON5,FJCID,The number of months of probation imposed upon adefendant under TTITLE5
+PROBCD5,FJCID,A code indicating whether the probation sentence associated with TTITLE5 was concurrent or consecutive in relation to the other counts in the indictment or information or multiplecounts of the same charge
+SUPVREL5,FJCID,A period of supervised release imposed upon adefendant under TTITLE5
+FINEAMT5,FJCID,The fine imposed upon the defendant at sentencingunder TTITLE5
+PRISTOT,FJCID,The total prison time for all offenses of which the defendant was convicted andprison time was imposed
+PROBTOT,FJCID,The total probation time for all offenses of which the defendant was convicted andprobation was imposed
+FINETOT,FJCID,The total fine imposed at sentencing for all offenses of which the defendant was convicted and a fine wasimposed
+CTFILTRN,FJCID,A count of defendants filed including inter-districttransfers
+CTFIL,FJCID,A count of defendants filed excluding inter-districttransfers
+CTFILWOR,FJCID,A count of originalproceedings commenced
+CTFILR,FJCID,"A count of defendants filed whose proceedings commenced by reopen,remand, appeal, or retrial"
+CTTRTRN,FJCID,A count of defendants terminated including inter- district transfers
+CTTR,FJCID,A count of defendants terminated excluding inter- district transfers
+CTTRWOR,FJCID,A count of original proceedings terminated
+CTTRR,FJCID,"A count of defendants terminated whose proceedings commenced by reopen, remand, appeal, orretrial"
+CTPN,FJCID,A count of defendants pending as of the last day of the period including longterm fugitives
+CTPNWOF,FJCID,A count of defendants pending as of the last day of the period excluding longterm fugitives
+SOURCE,FJCID,The source from which the data were loaded into theAOUSC’s NewSTATS database
+VER,FJCID,A sequential number indicating the iteration of thedefendant record
+LOADDATE,FJCID,The date the record was loaded into the AOUSC’sNewSTATS database
+TAPEYEAR,FJCID,Statistical year ID label on data file obtained from the AOUSC which representstermination year
+PRISTOTFLAG,JUSTFAIR,Flag that marks records where PRISTOT has been recorded to be consistent with USSC.
+PROBTOTFLAG,JUSTFAIR,Flag that marks records where PROBTOT has been recorded to be consistent with USSC.
+FJDcode1,JUSTFAIR,"Renaming of FTITLE 1 - 10 in FJCID, created in preprocess.R."
+FJDcode2,JUSTFAIR,"Renaming of FTITLE 1 - 10 in FJCID, created in preprocess.R."
+FJDcode3,JUSTFAIR,"Renaming of FTITLE 1 - 10 in FJCID, created in preprocess.R."
+FJDcode4,JUSTFAIR,"Renaming of FTITLE 1 - 10 in FJCID, created in preprocess.R."
+FJDcode5,JUSTFAIR,"Renaming of FTITLE 1 - 10 in FJCID, created in preprocess.R."
+FJDcode6,JUSTFAIR,"Renaming of FTITLE 1 - 10 in FJCID, created in preprocess.R."
+FJDcode7,JUSTFAIR,"Renaming of FTITLE 1 - 10 in FJCID, created in preprocess.R."
+FJDcode8,JUSTFAIR,"Renaming of FTITLE 1 - 10 in FJCID, created in preprocess.R."
+FJDcode9,JUSTFAIR,"Renaming of FTITLE 1 - 10 in FJCID, created in preprocess.R."
+FJDcode10,JUSTFAIR,"Renaming of FTITLE 1 - 10 in FJCID, created in preprocess.R."
+FJDrecord,JUSTFAIR,Indexing variable for FJCID cases introduced in this study.
+DOCKETFULL,JUSTFAIR,Variable extracted from the CASLGKY variable and used to scrape from PACER.
+pacer_inits,"PACER, JUSTFAIR",Initials of judge(s) assigned to the case scraped using Juriscraper from PACER.
+pacer_first_inits,JUSTFAIR,First set of initials of judge assigned to the case (extracted from pacer_inits). 
+pacer_second_inits,JUSTFAIR,"Second set of initials of judge assigned to the case, if available (extracted from pacer_inits). "
+DISTRICT,USSCD,The district in which the defendant was sentenced. Use CIRCDIST for the districts in the same order in which they appear in the Sourcebook.
+MERGETYPE,JUSTFAIR,"Flag (1) for cases that were merged using the first set of judge initials (pacer_first_inits), and (2) for cases merged using the second set of judge initials. "
+LastName,"Wikipedia, FJC Biographical Directory",Judge last name extracted from both Wikipedia and from FJC Biographical Dircetory on Article III Federal judges.
+MergeInits,JUSTFAIR,The final set of initials that was used for merging with either the Wikipedia or the FJC judge data set. 
+title,Wikipedia,Judge title. 
+judge,Wikipedia,Judge name as extracted from Wikipedia court district pages. 
+judge_clean,JUSTFAIR,"Cleaned judge variable: removed strings (such as Jr., Sr., roman numerals) at the end, apostrophes, hyphens, and parantheses; as in judges_full_processing.R."
+judge_full,JUSTFAIR,Judge name as listed on their individual Wikipedia page (if available). 
+judge_clean_full,JUSTFAIR,Cleaned judge_full variable using the same procedure as above; as in judges_full_processing.R.
+judge_inits_full,JUSTFAIR,Initials extracted from judge_clean_full variable. 
+dutystation,Wikipedia,Duty station that the federal judge serves at.
+lifespan,Wikipedia,Years of birth and death of federal judge.
+active,Wikipedia,Judge activity period. 
+chief,Wikipedia,Activity period as chief judge (if applicable). 
+senior,Wikipedia,Judge activity period in senior status. 
+appointedby,Wikipedia,U.S. President that appointed the federal judge (Wikipedia).
+termination,Wikipedia,Reason for termination (if former judge).
+url,JUSTFAIR,URL for district court Wikipedia webpage.
+activestart,JUSTFAIR,Start year of activity period.
+activeend,JUSTFAIR,End year of activity period.
+seniorstart,JUSTFAIR,Start year of senior status period (if applicable).
+seniorend,JUSTFAIR,End year of senior status period (if applicable).
+totalstart,JUSTFAIR,Overall start year of activity period (Wikipedia data). 
+totalend,JUSTFAIR,"Overall end year of activity period (including senior status, Wikipedia data)."
+nid,FJC Biographical Directory,Node ID. This is a unique identifier for each judge generated solely for purposes of the FJC’s biographical database. The Node ID also corresponds to each judge’s biography on the FJC website.
+jid,FJC Biographical Directory,"Judge Identification Number. This was used as a unique identifier for each judge, generated for purposes of the database, until July 2016. These numbers are no longer used."
+FirstName,FJC Biographical Directory,Judge first name as extracted from the FJC Biographical Directory.
+MiddleName,FJC Biographical Directory,Judge middle name as extracted from the FJC Biographical Directory.
+Suffix,FJC Biographical Directory,Judge suffix.
+BirthMonth,FJC Biographical Directory,Judge birth month.
+BirthDay,FJC Biographical Directory,Judge birth day.
+BirthYear,FJC Biographical Directory,Judge birth year.
+BirthCity,FJC Biographical Directory,Judge birth city.
+BirthState,FJC Biographical Directory,Judge birth state.
+DeathMonth,FJC Biographical Directory,Judge death month.
+DeathDay,FJC Biographical Directory,Judge death day.
+DeathYear,FJC Biographical Directory,Judge death year.
+DeathCity,FJC Biographical Directory,Judge death city.
+DeathState,FJC Biographical Directory,Judge death state.
+Gender,FJC Biographical Directory,Judge gender. 
+RaceorEthnicity,FJC Biographical Directory,Judge race or ethnicity.
+CourtType1,FJC Biographical Directory,Court type of judge service. 
+CourtName1,FJC Biographical Directory,Court name of judge service. 
+AppointmentTitle1,FJC Biographical Directory,Title received at time of appointment.
+AppointingPresident1,FJC Biographical Directory,U.S. President that appointed the federal judge (FJC). 
+PartyofAppointingPresident1,FJC Biographical Directory,Party of Appointing President. 
+ReappointingPresident1,FJC Biographical Directory,"“Reappointing President” is used in the rare instances in which a judge was appointed to the same seat by two different presidents, having received a recess appointment from the first and a nomination, followed by Senate confirmation, from the second."
+PartyofReappointingPresident1,FJC Biographical Directory,"“Party of Reappointing President” is used in the rare instances in which a judge was appointed to the same seat by two different presidents, having received a recess appointment from the first and a nomination, followed by Senate confirmation, from the second."
+ABARating1,FJC Biographical Directory,American Bar Association evaluation of professional qualifications. 
+SeatID1,FJC Biographical Directory,"“Seat ID” is a code, assigned by the FJC to each judicial service record in the database, that indicates the order of succession on each court. The code consists of three components: (1) court; (2) seat number; and (3) order of succession. "
+StatuteAuthorizingNewSeat1,FJC Biographical Directory,Statute number authorizing new seat. 
+RecessAppointmentDate1,FJC Biographical Directory,Date of recess appointment (appointment during U.S. Senate recess).
+NominationDate1,FJC Biographical Directory,Date of nomination.
+CommitteeReferralDate1,FJC Biographical Directory,Date of referral to the judiciary committee. 
+HearingDate1,FJC Biographical Directory,Date of confirmation hearing of judge nominee. 
+JudiciaryCommitteeAction1,FJC Biographical Directory,"Most nominations were listed in the Senate Executive Journal as ""Reported (no recommendation recorded)"". On the rare occasions when the committee stated explicitly that it was reporting a nomination without a recommendation regarding whether it should be confirmed, the term ""Reported (without recommendation)"" is used."
+CommitteeActionDate1,FJC Biographical Directory,Date of committee action.
+SenateVoteType1,FJC Biographical Directory,Voice Vote or Roll Call Vote in a Senate Vote. 
+Ayes/Nays1,FJC Biographical Directory,Ratio of yes vs. no votes in Senate. 
+ConfirmationDate1,FJC Biographical Directory,Date of judge confirmation. 
+CommissionDate1,FJC Biographical Directory,Date of judge commission.
+ServiceasChiefJudgeBegin1,FJC Biographical Directory,Start year of temporary service as a chief judge.
+ServiceasChiefJudgeEnd1,FJC Biographical Directory,End year of temporary service as a chief judge. 
+2ndServiceasChiefJudgeBegin1,FJC Biographical Directory,Start year of a second term a judge has served as chief on the same court.
+2ndServiceasChiefJudgeEnd1,FJC Biographical Directory,End year of a second term a judge has served as chief on the same court.
+SeniorStatusDate1,FJC Biographical Directory,Start date of senior status. 
+Termination1,FJC Biographical Directory,Reason for termination.
+TerminationDate1,FJC Biographical Directory,Date of termination.
+CourtType2,FJC Biographical Directory,Court type of judge service. 
+CourtName2,FJC Biographical Directory,Court name of judge service. 
+AppointmentTitle2,FJC Biographical Directory,Title received at time of appointment.
+AppointingPresident2,FJC Biographical Directory,U.S. President that appointed the federal judge (FJC). 
+PartyofAppointingPresident2,FJC Biographical Directory,Party of Appointing President. 
+ReappointingPresident2,FJC Biographical Directory,"“Reappointing President” is used in the rare instances in which a judge was appointed to the same seat by two different presidents, having received a recess appointment from the first and a nomination, followed by Senate confirmation, from the second."
+PartyofReappointingPresident2,FJC Biographical Directory,"“Party of Reappointing President” is used in the rare instances in which a judge was appointed to the same seat by two different presidents, having received a recess appointment from the first and a nomination, followed by Senate confirmation, from the second."
+ABARating2,FJC Biographical Directory,American Bar Association evaluation of professional qualifications. 
+SeatID2,FJC Biographical Directory,"“Seat ID” is a code, assigned by the FJC to each judicial service record in the database, that indicates the order of succession on each court. The code consists of three components: (1) court; (2) seat number; and (3) order of succession. "
+StatuteAuthorizingNewSeat2,FJC Biographical Directory,Statute number authorizing new seat. 
+RecessAppointmentDate2,FJC Biographical Directory,Date of recess appointment (appointment during U.S. Senate recess).
+NominationDate2,FJC Biographical Directory,Date of nomination.
+CommitteeReferralDate2,FJC Biographical Directory,Date of referral to the judiciary committee. 
+HearingDate2,FJC Biographical Directory,Date of confirmation hearing of judge nominee. 
+JudiciaryCommitteeAction2,FJC Biographical Directory,"Most nominations were listed in the Senate Executive Journal as ""Reported (no recommendation recorded)"". On the rare occasions when the committee stated explicitly that it was reporting a nomination without a recommendation regarding whether it should be confirmed, the term ""Reported (without recommendation)"" is used."
+CommitteeActionDate2,FJC Biographical Directory,Date of committee action.
+SenateVoteType2,FJC Biographical Directory,Voice Vote or Roll Call Vote in a Senate Vote. 
+Ayes/Nays2,FJC Biographical Directory,Ratio of yes vs. no votes in Senate. 
+ConfirmationDate2,FJC Biographical Directory,Date of judge confirmation. 
+CommissionDate2,FJC Biographical Directory,Date of judge commission.
+ServiceasChiefJudgeBegin2,FJC Biographical Directory,Start year of temporary service as a chief judge.
+ServiceasChiefJudgeEnd2,FJC Biographical Directory,End year of temporary service as a chief judge. 
+2ndServiceasChiefJudgeBegin2,FJC Biographical Directory,Start year of a second term a judge has served as chief on the same court.
+2ndServiceasChiefJudgeEnd2,FJC Biographical Directory,End year of a second term a judge has served as chief on the same court.
+SeniorStatusDate2,FJC Biographical Directory,Start date of senior status. 
+Termination2,FJC Biographical Directory,Reason for termination.
+TerminationDate2,FJC Biographical Directory,Date of termination.
+CourtType3,FJC Biographical Directory,Court type of judge service. 
+CourtName3,FJC Biographical Directory,Court name of judge service. 
+AppointmentTitle3,FJC Biographical Directory,Title received at time of appointment.
+AppointingPresident3,FJC Biographical Directory,U.S. President that appointed the federal judge (FJC). 
+PartyofAppointingPresident3,FJC Biographical Directory,Party of Appointing President. 
+ReappointingPresident3,FJC Biographical Directory,"“Reappointing President” is used in the rare instances in which a judge was appointed to the same seat by two different presidents, having received a recess appointment from the first and a nomination, followed by Senate confirmation, from the second."
+PartyofReappointingPresident3,FJC Biographical Directory,"“Party of Reappointing President” is used in the rare instances in which a judge was appointed to the same seat by two different presidents, having received a recess appointment from the first and a nomination, followed by Senate confirmation, from the second."
+ABARating3,FJC Biographical Directory,American Bar Association evaluation of professional qualifications. 
+SeatID3,FJC Biographical Directory,"“Seat ID” is a code, assigned by the FJC to each judicial service record in the database, that indicates the order of succession on each court. The code consists of three components: (1) court; (2) seat number; and (3) order of succession. "
+StatuteAuthorizingNewSeat3,FJC Biographical Directory,Statute number authorizing new seat. 
+RecessAppointmentDate3,FJC Biographical Directory,Date of recess appointment (appointment during U.S. Senate recess).
+NominationDate3,FJC Biographical Directory,Date of nomination.
+CommitteeReferralDate3,FJC Biographical Directory,Date of referral to the judiciary committee. 
+HearingDate3,FJC Biographical Directory,Date of confirmation hearing of judge nominee. 
+JudiciaryCommitteeAction3,FJC Biographical Directory,"Most nominations were listed in the Senate Executive Journal as ""Reported (no recommendation recorded)"". On the rare occasions when the committee stated explicitly that it was reporting a nomination without a recommendation regarding whether it should be confirmed, the term ""Reported (without recommendation)"" is used."
+CommitteeActionDate3,FJC Biographical Directory,Date of committee action.
+SenateVoteType3,FJC Biographical Directory,Voice Vote or Roll Call Vote in a Senate Vote. 
+Ayes/Nays3,FJC Biographical Directory,Ratio of yes vs. no votes in Senate. 
+ConfirmationDate3,FJC Biographical Directory,Date of judge confirmation. 
+CommissionDate3,FJC Biographical Directory,Date of judge commission.
+ServiceasChiefJudgeBegin3,FJC Biographical Directory,Start year of temporary service as a chief judge.
+ServiceasChiefJudgeEnd3,FJC Biographical Directory,End year of temporary service as a chief judge. 
+2ndServiceasChiefJudgeBegin3,FJC Biographical Directory,Start year of a second term a judge has served as chief on the same court.
+2ndServiceasChiefJudgeEnd3,FJC Biographical Directory,End year of a second term a judge has served as chief on the same court.
+SeniorStatusDate3,FJC Biographical Directory,Start date of senior status. 
+Termination3,FJC Biographical Directory,Reason for termination.
+TerminationDate3,FJC Biographical Directory,Date of termination.
+CourtType4,FJC Biographical Directory,Court type of judge service. 
+CourtName4,FJC Biographical Directory,Court name of judge service. 
+AppointmentTitle4,FJC Biographical Directory,Title received at time of appointment.
+AppointingPresident4,FJC Biographical Directory,U.S. President that appointed the federal judge (FJC). 
+PartyofAppointingPresident4,FJC Biographical Directory,Party of Appointing President. 
+ReappointingPresident4,FJC Biographical Directory,"“Reappointing President” is used in the rare instances in which a judge was appointed to the same seat by two different presidents, having received a recess appointment from the first and a nomination, followed by Senate confirmation, from the second."
+PartyofReappointingPresident4,FJC Biographical Directory,"“Party of Reappointing President” is used in the rare instances in which a judge was appointed to the same seat by two different presidents, having received a recess appointment from the first and a nomination, followed by Senate confirmation, from the second."
+ABARating4,FJC Biographical Directory,American Bar Association evaluation of professional qualifications. 
+SeatID4,FJC Biographical Directory,"“Seat ID” is a code, assigned by the FJC to each judicial service record in the database, that indicates the order of succession on each court. The code consists of three components: (1) court; (2) seat number; and (3) order of succession. "
+StatuteAuthorizingNewSeat4,FJC Biographical Directory,Statute number authorizing new seat. 
+RecessAppointmentDate4,FJC Biographical Directory,Date of recess appointment (appointment during U.S. Senate recess).
+NominationDate4,FJC Biographical Directory,Date of nomination.
+CommitteeReferralDate4,FJC Biographical Directory,Date of referral to the judiciary committee. 
+HearingDate4,FJC Biographical Directory,Date of confirmation hearing of judge nominee. 
+JudiciaryCommitteeAction4,FJC Biographical Directory,"Most nominations were listed in the Senate Executive Journal as ""Reported (no recommendation recorded)"". On the rare occasions when the committee stated explicitly that it was reporting a nomination without a recommendation regarding whether it should be confirmed, the term ""Reported (without recommendation)"" is used."
+CommitteeActionDate4,FJC Biographical Directory,Date of committee action.
+SenateVoteType4,FJC Biographical Directory,Voice Vote or Roll Call Vote in a Senate Vote. 
+Ayes/Nays4,FJC Biographical Directory,Ratio of yes vs. no votes in Senate. 
+ConfirmationDate4,FJC Biographical Directory,Date of judge confirmation. 
+CommissionDate4,FJC Biographical Directory,Date of judge commission.
+ServiceasChiefJudgeBegin4,FJC Biographical Directory,Start year of temporary service as a chief judge.
+ServiceasChiefJudgeEnd4,FJC Biographical Directory,End year of temporary service as a chief judge. 
+2ndServiceasChiefJudgeBegin4,FJC Biographical Directory,Start year of a second term a judge has served as chief on the same court.
+2ndServiceasChiefJudgeEnd4,FJC Biographical Directory,End year of a second term a judge has served as chief on the same court.
+SeniorStatusDate4,FJC Biographical Directory,Start date of senior status. 
+Termination4,FJC Biographical Directory,Reason for termination.
+TerminationDate4,FJC Biographical Directory,Date of termination.
+CourtType5,FJC Biographical Directory,Court type of judge service. 
+CourtName5,FJC Biographical Directory,Court name of judge service. 
+AppointmentTitle5,FJC Biographical Directory,Title received at time of appointment.
+AppointingPresident5,FJC Biographical Directory,U.S. President that appointed the federal judge (FJC). 
+PartyofAppointingPresident5,FJC Biographical Directory,Party of Appointing President. 
+ReappointingPresident5,FJC Biographical Directory,"“Reappointing President” is used in the rare instances in which a judge was appointed to the same seat by two different presidents, having received a recess appointment from the first and a nomination, followed by Senate confirmation, from the second."
+PartyofReappointingPresident5,FJC Biographical Directory,"“Party of Reappointing President” is used in the rare instances in which a judge was appointed to the same seat by two different presidents, having received a recess appointment from the first and a nomination, followed by Senate confirmation, from the second."
+ABARating5,FJC Biographical Directory,American Bar Association evaluation of professional qualifications. 
+SeatID5,FJC Biographical Directory,"“Seat ID” is a code, assigned by the FJC to each judicial service record in the database, that indicates the order of succession on each court. The code consists of three components: (1) court; (2) seat number; and (3) order of succession. "
+StatuteAuthorizingNewSeat5,FJC Biographical Directory,Statute number authorizing new seat. 
+RecessAppointmentDate5,FJC Biographical Directory,Date of recess appointment (appointment during U.S. Senate recess).
+NominationDate5,FJC Biographical Directory,Date of nomination.
+CommitteeReferralDate5,FJC Biographical Directory,Date of referral to the judiciary committee. 
+HearingDate5,FJC Biographical Directory,Date of confirmation hearing of judge nominee. 
+JudiciaryCommitteeAction5,FJC Biographical Directory,"Most nominations were listed in the Senate Executive Journal as ""Reported (no recommendation recorded)"". On the rare occasions when the committee stated explicitly that it was reporting a nomination without a recommendation regarding whether it should be confirmed, the term ""Reported (without recommendation)"" is used."
+CommitteeActionDate5,FJC Biographical Directory,Date of committee action.
+SenateVoteType5,FJC Biographical Directory,Voice Vote or Roll Call Vote in a Senate Vote. 
+Ayes/Nays5,FJC Biographical Directory,Ratio of yes vs. no votes in Senate. 
+ConfirmationDate5,FJC Biographical Directory,Date of judge confirmation. 
+CommissionDate5,FJC Biographical Directory,Date of judge commission.
+ServiceasChiefJudgeBegin5,FJC Biographical Directory,Start year of temporary service as a chief judge.
+ServiceasChiefJudgeEnd5,FJC Biographical Directory,End year of temporary service as a chief judge. 
+2ndServiceasChiefJudgeBegin5,FJC Biographical Directory,Start year of a second term a judge has served as chief on the same court.
+2ndServiceasChiefJudgeEnd5,FJC Biographical Directory,End year of a second term a judge has served as chief on the same court.
+SeniorStatusDate5,FJC Biographical Directory,Start date of senior status. 
+Termination5,FJC Biographical Directory,Reason for termination.
+TerminationDate5,FJC Biographical Directory,Date of termination.
+CourtType6,FJC Biographical Directory,Court type of judge service. 
+CourtName6,FJC Biographical Directory,Court name of judge service. 
+AppointmentTitle6,FJC Biographical Directory,Title received at time of appointment.
+AppointingPresident6,FJC Biographical Directory,U.S. President that appointed the federal judge (FJC). 
+PartyofAppointingPresident6,FJC Biographical Directory,Party of Appointing President. 
+ReappointingPresident6,FJC Biographical Directory,"“Reappointing President” is used in the rare instances in which a judge was appointed to the same seat by two different presidents, having received a recess appointment from the first and a nomination, followed by Senate confirmation, from the second."
+PartyofReappointingPresident6,FJC Biographical Directory,"“Party of Reappointing President” is used in the rare instances in which a judge was appointed to the same seat by two different presidents, having received a recess appointment from the first and a nomination, followed by Senate confirmation, from the second."
+ABARating6,FJC Biographical Directory,American Bar Association evaluation of professional qualifications. 
+SeatID6,FJC Biographical Directory,"“Seat ID” is a code, assigned by the FJC to each judicial service record in the database, that indicates the order of succession on each court. The code consists of three components: (1) court; (2) seat number; and (3) order of succession. "
+StatuteAuthorizingNewSeat6,FJC Biographical Directory,Statute number authorizing new seat. 
+RecessAppointmentDate6,FJC Biographical Directory,Date of recess appointment (appointment during U.S. Senate recess).
+NominationDate6,FJC Biographical Directory,Date of nomination.
+CommitteeReferralDate6,FJC Biographical Directory,Date of referral to the judiciary committee. 
+HearingDate6,FJC Biographical Directory,Date of confirmation hearing of judge nominee. 
+JudiciaryCommitteeAction6,FJC Biographical Directory,"Most nominations were listed in the Senate Executive Journal as ""Reported (no recommendation recorded)"". On the rare occasions when the committee stated explicitly that it was reporting a nomination without a recommendation regarding whether it should be confirmed, the term ""Reported (without recommendation)"" is used."
+CommitteeActionDate6,FJC Biographical Directory,Date of committee action.
+SenateVoteType6,FJC Biographical Directory,Voice Vote or Roll Call Vote in a Senate Vote. 
+Ayes/Nays6,FJC Biographical Directory,Ratio of yes vs. no votes in Senate. 
+ConfirmationDate6,FJC Biographical Directory,Date of judge confirmation. 
+CommissionDate6,FJC Biographical Directory,Date of judge commission.
+ServiceasChiefJudgeBegin6,FJC Biographical Directory,Start year of temporary service as a chief judge.
+ServiceasChiefJudgeEnd6,FJC Biographical Directory,End year of temporary service as a chief judge. 
+2ndServiceasChiefJudgeBegin6,FJC Biographical Directory,Start year of a second term a judge has served as chief on the same court.
+2ndServiceasChiefJudgeEnd6,FJC Biographical Directory,End year of a second term a judge has served as chief on the same court.
+SeniorStatusDate6,FJC Biographical Directory,Start date of senior status. 
+Termination6,FJC Biographical Directory,Reason for termination.
+TerminationDate6,FJC Biographical Directory,Date of termination.
+OtherFederalJudicialService1,FJC Biographical Directory,"Includes a wide variety of offices, such as judge of a territorial court; judge of a special court such as the Foreign Intelligence Surveillance Court; U.S. bankruptcy judge; U.S. magistrate judge; judge of a military court; and many others."
+OtherFederalJudicialService2,FJC Biographical Directory,"Includes a wide variety of offices, such as judge of a territorial court; judge of a special court such as the Foreign Intelligence Surveillance Court; U.S. bankruptcy judge; U.S. magistrate judge; judge of a military court; and many others."
+OtherFederalJudicialService3,FJC Biographical Directory,"Includes a wide variety of offices, such as judge of a territorial court; judge of a special court such as the Foreign Intelligence Surveillance Court; U.S. bankruptcy judge; U.S. magistrate judge; judge of a military court; and many others."
+OtherFederalJudicialService4,FJC Biographical Directory,"Includes a wide variety of offices, such as judge of a territorial court; judge of a special court such as the Foreign Intelligence Surveillance Court; U.S. bankruptcy judge; U.S. magistrate judge; judge of a military court; and many others."
+School1,FJC Biographical Directory,School (university) attended. 
+Degree1,FJC Biographical Directory,Degree obtained. 
+DegreeYear1,FJC Biographical Directory,Year of degree. 
+School2,FJC Biographical Directory,School (university) attended. 
+Degree2,FJC Biographical Directory,Degree obtained. 
+DegreeYear2,FJC Biographical Directory,Year of degree. 
+School3,FJC Biographical Directory,School (university) attended. 
+Degree3,FJC Biographical Directory,Degree obtained. 
+DegreeYear3,FJC Biographical Directory,Year of degree. 
+School4,FJC Biographical Directory,School (university) attended. 
+Degree4,FJC Biographical Directory,Degree obtained. 
+DegreeYear4,FJC Biographical Directory,Year of degree. 
+School5,FJC Biographical Directory,School (university) attended. 
+Degree5,FJC Biographical Directory,Degree obtained. 
+DegreeYear5,FJC Biographical Directory,Year of degree. 
+ProfessionalCareer,FJC Biographical Directory,List of roles throughout professional career.
+OtherNominations/RecessAppointments,FJC Biographical Directory,"Instances in which a person who was or later became an Article III judge received an attempted presidential recess appointment or presidential nomination to an Article III judgeship that did not result in a successful appointment, for any of a variety of reasons."
+STARTYR,JUSTFAIR,Overall start year of activity period (FJC Biographical Directory data). 
+ENDYR,JUSTFAIR,"Overall end year of activity period (including senior status, FJC Biographical Directory data)."
+DataSource,JUSTFAIR,"Flag (1) for cases merged with judge data from both Wikipedia and FJC Biographical Directory, (2) for cases merged with judge data from Wikipedia only, and (3) for cases merged with judge data from FJC Biographical Directory only."
