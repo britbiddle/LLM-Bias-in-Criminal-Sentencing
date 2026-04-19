@@ -1,0 +1,34 @@
+{"source":"Real judges (n=107k)","condition_type":"real","race_vs_white":"Black","coef_months":9.42,"ci_lo":8.92,"ci_hi":9.92,"p":0.0}
+{"source":"Real judges (n=107k)","condition_type":"real","race_vs_white":"Hispanic","coef_months":0.15,"ci_lo":-0.32,"ci_hi":0.62,"p":0.5353}
+{"source":"claude-haiku-4-5 (race)","condition_type":"race-matched","race_vs_white":"Black","coef_months":-5.43,"ci_lo":-11.43,"ci_hi":0.58,"p":0.0764}
+{"source":"claude-haiku-4-5 (race)","condition_type":"race-matched","race_vs_white":"Hispanic","coef_months":-3.83,"ci_lo":-10.0,"ci_hi":2.34,"p":0.2228}
+{"source":"gpt-4o-mini (race)","condition_type":"race-matched","race_vs_white":"Black","coef_months":-5.43,"ci_lo":-12.6,"ci_hi":1.73,"p":0.1366}
+{"source":"gpt-4o-mini (race)","condition_type":"race-matched","race_vs_white":"Hispanic","coef_months":-3.23,"ci_lo":-10.59,"ci_hi":4.13,"p":0.3881}
+{"source":"llama-3.2-3b (race)","condition_type":"race-matched","race_vs_white":"Black","coef_months":0.89,"ci_lo":-9.67,"ci_hi":11.45,"p":0.8682}
+{"source":"llama-3.2-3b (race)","condition_type":"race-matched","race_vs_white":"Hispanic","coef_months":-2.09,"ci_lo":-12.93,"ci_hi":8.76,"p":0.7051}
+{"source":"qwen-2.5-7b (race)","condition_type":"race-matched","race_vs_white":"Black","coef_months":-8.08,"ci_lo":-14.95,"ci_hi":-1.22,"p":0.0211}
+{"source":"qwen-2.5-7b (race)","condition_type":"race-matched","race_vs_white":"Hispanic","coef_months":-7.78,"ci_lo":-14.83,"ci_hi":-0.73,"p":0.0307}
+{"source":"claude-haiku-4-5 (debias)","condition_type":"debias-matched","race_vs_white":"Black","coef_months":-5.25,"ci_lo":-10.9,"ci_hi":0.39,"p":0.0679}
+{"source":"claude-haiku-4-5 (debias)","condition_type":"debias-matched","race_vs_white":"Hispanic","coef_months":-3.39,"ci_lo":-9.19,"ci_hi":2.4,"p":0.2504}
+{"source":"gpt-4o-mini (debias)","condition_type":"debias-matched","race_vs_white":"Black","coef_months":-4.49,"ci_lo":-10.47,"ci_hi":1.49,"p":0.1402}
+{"source":"gpt-4o-mini (debias)","condition_type":"debias-matched","race_vs_white":"Hispanic","coef_months":-3.76,"ci_lo":-9.9,"ci_hi":2.38,"p":0.2295}
+{"source":"llama-3.2-3b (debias)","condition_type":"debias-matched","race_vs_white":"Black","coef_months":5.12,"ci_lo":-3.33,"ci_hi":13.58,"p":0.2342}
+{"source":"llama-3.2-3b (debias)","condition_type":"debias-matched","race_vs_white":"Hispanic","coef_months":-1.58,"ci_lo":-10.27,"ci_hi":7.11,"p":0.7202}
+{"source":"qwen-2.5-7b (debias)","condition_type":"debias-matched","race_vs_white":"Black","coef_months":-4.24,"ci_lo":-11.51,"ci_hi":3.02,"p":0.2509}
+{"source":"qwen-2.5-7b (debias)","condition_type":"debias-matched","race_vs_white":"Hispanic","coef_months":-4.02,"ci_lo":-11.48,"ci_hi":3.44,"p":0.2901}
+{"source":"claude-haiku-4-5 (name)","condition_type":"name-matched","race_vs_white":"Black","coef_months":-5.93,"ci_lo":-11.88,"ci_hi":0.03,"p":0.051}
+{"source":"claude-haiku-4-5 (name)","condition_type":"name-matched","race_vs_white":"Hispanic","coef_months":-3.87,"ci_lo":-9.98,"ci_hi":2.25,"p":0.2142}
+{"source":"gpt-4o-mini (name)","condition_type":"name-matched","race_vs_white":"Black","coef_months":-6.1,"ci_lo":-12.14,"ci_hi":-0.07,"p":0.0474}
+{"source":"gpt-4o-mini (name)","condition_type":"name-matched","race_vs_white":"Hispanic","coef_months":-4.81,"ci_lo":-11.01,"ci_hi":1.39,"p":0.1277}
+{"source":"llama-3.2-3b (name)","condition_type":"name-matched","race_vs_white":"Black","coef_months":-8.36,"ci_lo":-18.48,"ci_hi":1.77,"p":0.1053}
+{"source":"llama-3.2-3b (name)","condition_type":"name-matched","race_vs_white":"Hispanic","coef_months":-6.7,"ci_lo":-17.1,"ci_hi":3.69,"p":0.2055}
+{"source":"qwen-2.5-7b (name)","condition_type":"name-matched","race_vs_white":"Black","coef_months":-5.51,"ci_lo":-12.39,"ci_hi":1.36,"p":0.1157}
+{"source":"qwen-2.5-7b (name)","condition_type":"name-matched","race_vs_white":"Hispanic","coef_months":-6.16,"ci_lo":-13.22,"ci_hi":0.9,"p":0.0871}
+{"source":"claude-haiku-4-5 (SES)","condition_type":"ses","race_vs_white":"Black","coef_months":-5.79,"ci_lo":-11.38,"ci_hi":-0.2,"p":0.0424}
+{"source":"claude-haiku-4-5 (SES)","condition_type":"ses","race_vs_white":"Hispanic","coef_months":-4.46,"ci_lo":-10.2,"ci_hi":1.28,"p":0.1271}
+{"source":"gpt-4o-mini (SES)","condition_type":"ses","race_vs_white":"Black","coef_months":-5.87,"ci_lo":-11.91,"ci_hi":0.16,"p":0.0563}
+{"source":"gpt-4o-mini (SES)","condition_type":"ses","race_vs_white":"Hispanic","coef_months":-3.97,"ci_lo":-10.17,"ci_hi":2.22,"p":0.2078}
+{"source":"llama-3.2-3b (SES)","condition_type":"ses","race_vs_white":"Black","coef_months":2.31,"ci_lo":-6.98,"ci_hi":11.61,"p":0.6249}
+{"source":"llama-3.2-3b (SES)","condition_type":"ses","race_vs_white":"Hispanic","coef_months":-2.41,"ci_lo":-11.96,"ci_hi":7.13,"p":0.6192}
+{"source":"qwen-2.5-7b (SES)","condition_type":"ses","race_vs_white":"Black","coef_months":-6.23,"ci_lo":-13.27,"ci_hi":0.81,"p":0.0828}
+{"source":"qwen-2.5-7b (SES)","condition_type":"ses","race_vs_white":"Hispanic","coef_months":-6.85,"ci_lo":-14.08,"ci_hi":0.39,"p":0.0635}

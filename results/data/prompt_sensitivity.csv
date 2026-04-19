@@ -1,0 +1,4 @@
+template,n,mean_BW,ci_lo,ci_hi
+primary (decoded),50,-2.5,-7.41,2.41
+concise,50,0.92,-0.84,2.68
+verbose,50,0.3,-1.46,2.06
